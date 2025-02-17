@@ -25,7 +25,10 @@ class TableNoRowWidget extends StatelessWidget {
             height: 30,
             child: ElevatedButton.icon(
               onPressed: onPressed,
-              icon: const Icon(Icons.add),
+              icon: const Icon(
+                Icons.add,
+                color: Colors.white,
+              ),
               label: const Text('Add new'),
               style: kDefaultButtonStyle.copyWith(
                 padding: const WidgetStatePropertyAll(

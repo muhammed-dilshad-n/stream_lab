@@ -28,7 +28,10 @@ class SaveButton extends StatelessWidget {
                     color: Colors.white,
                   ),
                 )
-              : const Icon(Icons.save),
+              : const Icon(
+                  Icons.save,
+                  color: Colors.white,
+                ),
           label: const Text('Save'),
           style: kDefaultButtonStyle,
         );
